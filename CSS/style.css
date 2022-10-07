@@ -13,6 +13,7 @@ body {
   justify-content: space-between;
   padding: 20px;
 }
+
 #header ul {
   display: flex;
 }
@@ -79,14 +80,84 @@ body {
 
 .toggle {
   display: block;
-  position: relative;
+  position: absolute;
   width: 50px;
   height: 50px;
   background-image: url("https://img.icons8.com/color/48/000000/barcelona-fc.png");
   cursor: pointer;
 }
 
-#header.active1 .toggle {
+/*#header.active1 .toggle {
   background-image: url("https://img.icons8.com/color/48/000000/barcelona-fc.png");
   background-repeat: no-repeat;
+}*/
+
+/*               section                         */
+
+body{
+  background-image: url(https://brandemia.org/sites/default/files/inline/images/lenguaje_grafico_texturas.jpg);
+  background-size: contain;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  border-color: #000000;
+  margin-left: 35rem;
+  margin-right: 35rem;
+}
+
+.Messi {
+  height: 11cm;
+  margin: 30px;
+  padding: 30px;
+  background-color: #ff0000;
+  border-radius: 5px;
+}
+
+.Messi > img {
+  height: 7.5cm;
+  margin: 10px;
+  padding: 2px;
+  background-color: #ebe7e7;
+  border-radius: 5px;
+}
+
+.Xavi {
+  height: 11cm;
+  margin: 30px;
+  padding: 30px;
+  background-color: #0000ff;
+  border-radius: 5px;
+}
+
+.Xavi > img {
+  height: 7.5cm;
+  margin: 10px;
+  padding: 2px;
+  background-color: #ebe7e7;
+  border-radius: 5px;
+}
+
+.Iniesta {
+  height: 11cm;
+  margin: 30px;
+  padding: 30px;
+  background-color: #ff4500;
+  border-radius: 5px;
+}
+
+.Iniesta > img {
+  height: 7.5cm;
+  margin: 10px;
+  padding: 2px;
+  background-color: #ebe7e7;
+  border-radius: 5px;
+}
+
+h2 {
+  font-size: 2.5rem;
 }
