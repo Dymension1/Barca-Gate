@@ -94,7 +94,7 @@ body {
 
 /*               section                         */
 
-body{
+body {
   background-image: url(https://brandemia.org/sites/default/files/inline/images/lenguaje_grafico_texturas.jpg);
   background-size: contain;
 }
@@ -118,7 +118,7 @@ body{
   border-radius: 5px;
 }
 
-.Messi > img {
+.Messi>img {
   height: 7.5cm;
   margin: 10px;
   padding: 2px;
@@ -134,7 +134,7 @@ body{
   border-radius: 5px;
 }
 
-.Xavi > img {
+.Xavi>img {
   height: 7.5cm;
   margin: 10px;
   padding: 2px;
@@ -150,7 +150,7 @@ body{
   border-radius: 5px;
 }
 
-.Iniesta > img {
+.Iniesta>img {
   height: 7.5cm;
   margin: 10px;
   padding: 2px;
@@ -160,4 +160,19 @@ body{
 
 h2 {
   font-size: 2.5rem;
+}
+
+
+
+/*               footer                        */
+
+footer {
+  margin-top: 15rem;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+}
+
+.footer_div>p {
+  color: #fff;
 }
