@@ -92,7 +92,7 @@ body {
 
 body {
   background-image: url(https://brandemia.org/sites/default/files/inline/images/lenguaje_grafico_texturas.jpg);
-  background-size: contain;
+  background-size: 100%;
 }
 
 .title {
@@ -179,7 +179,7 @@ img {
   }
 
   to {
-    left: 23.5cm;
+    left: 63%;
   }
 }
 
