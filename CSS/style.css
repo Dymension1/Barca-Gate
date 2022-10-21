@@ -43,7 +43,7 @@ body {
   display: none;
 }
 
-@media (max-width: 749px) {
+@media (max-width: 750px) {
   #header ul {
     position: absolute;
     top: -100%;

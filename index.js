@@ -5,6 +5,8 @@ function toogle() {
   setTimeout(() => location.href = "https://www.fcbarcelona.es/es/", 1000);
 }
 
+document.getElementById('chatbot').removeAttribute('left');
+
 
 $(document).ready(function () { 
   $('.ir-arriba').click(function () { $('body,html').animate({ scrollTop: '0px' }, 1000); });
