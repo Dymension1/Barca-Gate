@@ -1,12 +1,8 @@
 <!DOCTYPE html>
 <html>
   <head>
-<<<<<<< HEAD
     <link rel="stylesheet" href="CSS/style.css" />
     <script src="index.js"></script>
-=======
-    <link rel="stylesheet" href="CSS/style.css">
->>>>>>> 9a5697fc5f4284413d67f206495b0dc6a03db6b0
   </head>
   <body>
     <header id="header">
@@ -20,17 +16,16 @@
       <div class="toggle" onclick="toggle()"></div>
     </header>
     <iframe
-<<<<<<< HEAD
-      id="chatbot"
+      id="chat"
       src="https://web.powerva.microsoft.com/environments/Default-d4f01a21-32eb-4b12-b14b-aa456fcdf386/bots/new_bot_ae8258545f684e40b1b306431274a52c/webchat"
-      height="400"
-      width="500"
-      title="Iframe Example"
-=======
-      class="chatbot"
-      src="https://web.powerva.microsoft.com/environments/Default-d4f01a21-32eb-4b12-b14b-aa456fcdf386/bots/new_bot_ae8258545f684e40b1b306431274a52c/webchat"
-      frameborder="0"
->>>>>>> 9a5697fc5f4284413d67f206495b0dc6a03db6b0
     ></iframe>
   </body>
 </html>
+
+<script>
+
+$(document).ready(function (){
+  $("#chat").removeAttr("position")
+});
+
+</script>
