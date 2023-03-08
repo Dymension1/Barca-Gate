@@ -1,31 +1,49 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="CSS/style.css" />
-    <script src="index.js"></script>
-  </head>
-  <body>
-    <header id="header">
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="#">Matches</a></li>
-        <li><a href="#">Trophies</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="botchat.html">Bot-Chat</a></li>
-      </ul>
-      <div class="toggle" onclick="toggle()"></div>
-    </header>
-    <iframe
-      id="chat"
-      src="https://web.powerva.microsoft.com/environments/Default-d4f01a21-32eb-4b12-b14b-aa456fcdf386/bots/new_bot_ae8258545f684e40b1b306431274a52c/webchat"
-    ></iframe>
-  </body>
+
+<head>
+  <link rel="stylesheet" href="CSS/style.css" />
+  <script src="index.js"></script>
+</head>
+
+<style>
+  #chat{
+    width: 500px;
+    height: 500px;
+    background-color: #ffff;
+    margin-top: 50px;
+  }
+
+  .chatbot{
+    display: flex;
+    justify-content: center;
+  }
+
+</style>
+
+<body>
+  <header id="header">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Matches</a></li>
+      <li><a href="#">Trophies</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="botchat.html">Bot-Chat</a></li>
+    </ul>
+    <div class="toggle" onclick="toggle()"></div>
+  </header>
+  <div class="chatbot">
+    <iframe id="chat"
+      src="https://web.powerva.microsoft.com/environments/Default-d4f01a21-32eb-4b12-b14b-aa456fcdf386/bots/new_bot_ae8258545f684e40b1b306431274a52c/webchat"></iframe>
+  </div>
+</body>
+
 </html>
 
 <script>
 
-$(document).ready(function (){
-  $("#chat").removeAttr("position")
-});
+  $(document).ready(function () {
+    $("#chat").removeAttr("position")
+  });
 
 </script>
